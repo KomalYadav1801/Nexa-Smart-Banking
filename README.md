@@ -14,6 +14,9 @@
 8. [Environment Variables Setup](#️-environment-variables-setup-env)
 9. [Available Scripts](#-available-scripts)
 10. [License & Acknowledgments](#-license--acknowledgments)
+11. [Future Scopes & Enhancements]
+
+
 
 ## 💡 About The Project
 
@@ -72,6 +75,14 @@ nexa-smart-banking/
 - **PostgreSQL RLS (Row Level Security):** Restricts access to accounts, transactions, and beneficiaries according to configured user-level policies.
 - **Atomic Transactions:** Fund transfers use transactional RPC routines. If a debit succeeds but a credit fails, the entire transaction rolls back to help protect ledger consistency.
 
+
+## 🔮 Future Scopes & Enhancements
+
+- [ ] **UPI & QR Code Payments:** Enable instant peer-to-peer payments through QR code scanning and generation for seamless money transfers.
+- [ ] **Loan & EMI Module:** Introduce loan calculators, preliminary loan eligibility checks, repayment schedules, and automated EMI tracking.
+- [ ] **Admin & Bank-Staff Console:** Develop a comprehensive back-office dashboard to manage user verification, flag suspicious transactions, and review KYC submissions.
+- [ ] **Biometric & 2FA Authentication:** Strengthen account security with WebAuthn, supported biometric authentication, and hardware security key-based multi-factor authentication.
+- [ ] **Multi-Currency Wallets:** Support multiple currencies with foreign exchange rate integration, cross-border remittances, and multi-currency account management.
 ## 🚀 Getting Started Locally
 
 ### Prerequisites
